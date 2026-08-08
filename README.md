@@ -8,11 +8,23 @@ als Choroplethenkarte eingefärbt; ein Klick auf ein Land zeigt alle Werte im De
 
 ## Verwendung
 
-Die Datei ist vollständig selbstständig (kein Server, kein Build) — einfach öffnen:
+Es gibt zwei Versionen:
+
+**1. Statische HTML-Version** (kein Server, kein Build) — einfach öffnen:
 
 ```bash
 open europe_map.html
 ```
+
+**2. Python-Webserver-Version** (Flask + Plotly), inkl. zusätzlicher Metrik
+"Nominaleinkommen (unbereinigt)" zum Vergleich mit dem kaufkraftbereinigten Wert:
+
+```bash
+pip3 install -r requirements.txt
+python3 server.py
+```
+
+Danach im Browser öffnen: http://127.0.0.1:8050
 
 ## Verfügbare Metriken
 

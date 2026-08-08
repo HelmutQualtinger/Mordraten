@@ -1,0 +1,371 @@
+{
+  "Norway": {
+    "iso3": "NOR",
+    "murder": 0.51,
+    "suicide": 11.0,
+    "lifeexp": 82.6,
+    "income_ppp": 29297,
+    "wealth_ppp": 170429,
+    "income_nominal_eur": 41814
+  },
+  "Sweden": {
+    "iso3": "SWE",
+    "murder": 0.89,
+    "suicide": 12.1,
+    "lifeexp": 82.8,
+    "income_ppp": 22290,
+    "wealth_ppp": 96569,
+    "income_nominal_eur": 27250
+  },
+  "Denmark": {
+    "iso3": "DNK",
+    "murder": 0.98,
+    "suicide": 9.8,
+    "lifeexp": 82.0,
+    "income_ppp": 22820,
+    "wealth_ppp": 211692,
+    "income_nominal_eur": 33903
+  },
+  "Finland": {
+    "iso3": "FIN",
+    "murder": 1.21,
+    "suicide": 14.2,
+    "lifeexp": 81.8,
+    "income_ppp": 21691,
+    "wealth_ppp": 100958,
+    "income_nominal_eur": 27346
+  },
+  "Iceland": {
+    "iso3": "ISL",
+    "murder": 0.0,
+    "suicide": 13.5,
+    "lifeexp": 82.5,
+    "income_ppp": 27853,
+    "wealth_ppp": 413471,
+    "income_nominal_eur": null
+  },
+  "Ireland": {
+    "iso3": "IRL",
+    "murder": 0.87,
+    "suicide": 12.0,
+    "lifeexp": 81.9,
+    "income_ppp": 21568,
+    "wealth_ppp": 113356,
+    "income_nominal_eur": 30689
+  },
+  "UK": {
+    "iso3": "GBR",
+    "murder": 1.02,
+    "suicide": 10.5,
+    "lifeexp": 81.3,
+    "income_ppp": 22366,
+    "wealth_ppp": 184876,
+    "income_nominal_eur": null
+  },
+  "Netherlands": {
+    "iso3": "NLD",
+    "murder": 0.62,
+    "suicide": 9.5,
+    "lifeexp": 82.3,
+    "income_ppp": 25116,
+    "wealth_ppp": 142328,
+    "income_nominal_eur": 29249
+  },
+  "Belgium": {
+    "iso3": "BEL",
+    "murder": 1.38,
+    "suicide": 15.1,
+    "lifeexp": 81.9,
+    "income_ppp": 25150,
+    "wealth_ppp": 328590,
+    "income_nominal_eur": 29015
+  },
+  "France": {
+    "iso3": "FRA",
+    "murder": 1.06,
+    "suicide": 13.3,
+    "lifeexp": 82.7,
+    "income_ppp": 21875,
+    "wealth_ppp": 181468,
+    "income_nominal_eur": 24179
+  },
+  "Germany": {
+    "iso3": "DEU",
+    "murder": 0.88,
+    "suicide": 11.3,
+    "lifeexp": 81.3,
+    "income_ppp": 24086,
+    "wealth_ppp": 88038,
+    "income_nominal_eur": 26274
+  },
+  "Austria": {
+    "iso3": "AUT",
+    "murder": 0.72,
+    "suicide": 11.9,
+    "lifeexp": 81.9,
+    "income_ppp": 28690,
+    "wealth_ppp": 89896,
+    "income_nominal_eur": 31443
+  },
+  "Switzerland": {
+    "iso3": "CHE",
+    "murder": 0.52,
+    "suicide": 10.8,
+    "lifeexp": 83.4,
+    "income_ppp": 28247,
+    "wealth_ppp": 150514,
+    "income_nominal_eur": 49328
+  },
+  "Poland": {
+    "iso3": "POL",
+    "murder": 1.14,
+    "suicide": 15.1,
+    "lifeexp": 77.7,
+    "income_ppp": 16551,
+    "wealth_ppp": 44353,
+    "income_nominal_eur": 10048
+  },
+  "Czechia": {
+    "iso3": "CZE",
+    "murder": 0.94,
+    "suicide": 13.2,
+    "lifeexp": 79.2,
+    "income_ppp": 16208,
+    "wealth_ppp": 41483,
+    "income_nominal_eur": 13656
+  },
+  "Slovakia": {
+    "iso3": "SVK",
+    "murder": 1.22,
+    "suicide": 12.4,
+    "lifeexp": 77.3,
+    "income_ppp": 10670,
+    "wealth_ppp": 75841,
+    "income_nominal_eur": 9214
+  },
+  "Hungary": {
+    "iso3": "HUN",
+    "murder": 2.04,
+    "suicide": 13.5,
+    "lifeexp": 76.1,
+    "income_ppp": 10913,
+    "wealth_ppp": 55162,
+    "income_nominal_eur": 7391
+  },
+  "Romania": {
+    "iso3": "ROU",
+    "murder": 2.58,
+    "suicide": 13.8,
+    "lifeexp": 75.9,
+    "income_ppp": 11084,
+    "wealth_ppp": 54300,
+    "income_nominal_eur": 6568
+  },
+  "Bulgaria": {
+    "iso3": "BGR",
+    "murder": 1.42,
+    "suicide": 11.3,
+    "lifeexp": 75.0,
+    "income_ppp": 11155,
+    "wealth_ppp": 55741,
+    "income_nominal_eur": 6523
+  },
+  "Serbia": {
+    "iso3": "SRB",
+    "murder": 2.75,
+    "suicide": 14.1,
+    "lifeexp": 75.6,
+    "income_ppp": 7752,
+    "wealth_ppp": 39912,
+    "income_nominal_eur": 4955
+  },
+  "Greece": {
+    "iso3": "GRC",
+    "murder": 0.7,
+    "suicide": 5.1,
+    "lifeexp": 81.1,
+    "income_ppp": 11389,
+    "wealth_ppp": 97665,
+    "income_nominal_eur": 10050
+  },
+  "Italy": {
+    "iso3": "ITA",
+    "murder": 0.93,
+    "suicide": 6.2,
+    "lifeexp": 82.8,
+    "income_ppp": 19691,
+    "wealth_ppp": 164880,
+    "income_nominal_eur": 19819
+  },
+  "Spain": {
+    "iso3": "ESP",
+    "murder": 0.68,
+    "suicide": 8.1,
+    "lifeexp": 83.6,
+    "income_ppp": 19021,
+    "wealth_ppp": 178662,
+    "income_nominal_eur": 18316
+  },
+  "Portugal": {
+    "iso3": "PRT",
+    "murder": 1.03,
+    "suicide": 10.2,
+    "lifeexp": 82.1,
+    "income_ppp": 13421,
+    "wealth_ppp": 126884,
+    "income_nominal_eur": 11824
+  },
+  "Croatia": {
+    "iso3": "HRV",
+    "murder": 1.37,
+    "suicide": 12.9,
+    "lifeexp": 78.7,
+    "income_ppp": 13438,
+    "wealth_ppp": 75002,
+    "income_nominal_eur": 9873
+  },
+  "Slovenia": {
+    "iso3": "SVN",
+    "murder": 0.8,
+    "suicide": 14.2,
+    "lifeexp": 81.7,
+    "income_ppp": 20273,
+    "wealth_ppp": 129973,
+    "income_nominal_eur": 18053
+  },
+  "Ukraine": {
+    "iso3": "UKR",
+    "murder": 4.82,
+    "suicide": 16.3,
+    "lifeexp": 71.5,
+    "income_ppp": 5304,
+    "wealth_ppp": 18920,
+    "income_nominal_eur": null
+  },
+  "Russia": {
+    "iso3": "RUS",
+    "murder": 7.32,
+    "suicide": 22.1,
+    "lifeexp": 70.5,
+    "income_ppp": 13290,
+    "wealth_ppp": 27222,
+    "income_nominal_eur": null
+  },
+  "Belarus": {
+    "iso3": "BLR",
+    "murder": 2.9,
+    "suicide": 18.0,
+    "lifeexp": 74.0,
+    "income_ppp": 9258,
+    "wealth_ppp": 72163,
+    "income_nominal_eur": null
+  },
+  "Lithuania": {
+    "iso3": "LTU",
+    "murder": 1.96,
+    "suicide": 20.3,
+    "lifeexp": 76.6,
+    "income_ppp": 14312,
+    "wealth_ppp": 61013,
+    "income_nominal_eur": 11284
+  },
+  "Latvia": {
+    "iso3": "LVA",
+    "murder": 2.15,
+    "suicide": 16.3,
+    "lifeexp": 75.4,
+    "income_ppp": 13228,
+    "wealth_ppp": 88353,
+    "income_nominal_eur": 11258
+  },
+  "Estonia": {
+    "iso3": "EST",
+    "murder": 1.65,
+    "suicide": 13.9,
+    "lifeexp": 78.2,
+    "income_ppp": 15492,
+    "wealth_ppp": 63894,
+    "income_nominal_eur": 15128
+  },
+  "Moldova": {
+    "iso3": "MDA",
+    "murder": 3.5,
+    "suicide": 10.0,
+    "lifeexp": 71.5,
+    "income_ppp": 5325,
+    "wealth_ppp": 26447,
+    "income_nominal_eur": null
+  },
+  "Bosnia": {
+    "iso3": "BIH",
+    "murder": 1.2,
+    "suicide": 14.0,
+    "lifeexp": 77.4,
+    "income_ppp": 7013,
+    "wealth_ppp": 44480,
+    "income_nominal_eur": null
+  },
+  "Montenegro": {
+    "iso3": "MNE",
+    "murder": 3.0,
+    "suicide": 9.0,
+    "lifeexp": 76.5,
+    "income_ppp": 9167,
+    "wealth_ppp": 112909,
+    "income_nominal_eur": 5611
+  },
+  "North Macedonia": {
+    "iso3": "MKD",
+    "murder": 1.7,
+    "suicide": 11.0,
+    "lifeexp": 75.8,
+    "income_ppp": 7609,
+    "wealth_ppp": 45305,
+    "income_nominal_eur": 3910
+  },
+  "Albania": {
+    "iso3": "ALB",
+    "murder": 2.2,
+    "suicide": 5.0,
+    "lifeexp": 78.5,
+    "income_ppp": 6174,
+    "wealth_ppp": 44079,
+    "income_nominal_eur": 3790
+  },
+  "Kosovo": {
+    "iso3": "XKX",
+    "murder": 2.0,
+    "suicide": 5.0,
+    "lifeexp": 72.0,
+    "income_ppp": 4745,
+    "wealth_ppp": 26700,
+    "income_nominal_eur": null
+  },
+  "Luxembourg": {
+    "iso3": "LUX",
+    "murder": 0.7,
+    "suicide": 9.0,
+    "lifeexp": 83.0,
+    "income_ppp": 34777,
+    "wealth_ppp": 413146,
+    "income_nominal_eur": 47636
+  },
+  "Malta": {
+    "iso3": "MLT",
+    "murder": 0.5,
+    "suicide": 4.0,
+    "lifeexp": 83.6,
+    "income_ppp": 21060,
+    "wealth_ppp": 158743,
+    "income_nominal_eur": 18940
+  },
+  "Cyprus": {
+    "iso3": "CYP",
+    "murder": 0.9,
+    "suicide": 4.5,
+    "lifeexp": 81.0,
+    "income_ppp": 20917,
+    "wealth_ppp": 66959,
+    "income_nominal_eur": 19246
+  }
+}
