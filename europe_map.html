@@ -346,7 +346,7 @@
                         <div class="stat-line"><span class="stat-label">Land anklicken für Details</span></div>
                     </div>
                 </div>
-                <p class="source-note">Kartengrenzen: Natural-Earth-Daten (EPSG:3035). Medianeinkommen: Eurostat ilc_di03 (PPS, 2023; UK/Island inflationsfortgeschrieben, Nicht-EU-Staaten geschätzt). Medianvermögen: UBS Global Wealth Report 2023 (USD), mit Weltbank-PPP-Faktor (GDP-PPP/nominal) auf Kaufkraftbasis umgerechnet. Mord-/Suizidraten &amp; Lebenserwartung: Schätzungen 2023/24. IQ: Schätzwerte in der Lynn-Tradition (Lynn &amp; Vanhanen, Lynn &amp; Becker u.a., zusammengesetzter Stand ~2024/25; Albanien, Kosovo und Ungarn zusätzlich interpoliert). PISA 2022 (OECD, Ø aus Mathematik/Lesen/Naturwissenschaften): für Russland (2022 ausgeschlossen), Belarus und Luxemburg (nicht teilgenommen) sowie Bosnien (keine gesicherten Werte) liegen keine Daten vor.</p>
+                <p class="source-note">Kartengrenzen: Natural-Earth-Daten (EPSG:3035). Medianeinkommen: Eurostat ilc_di03 (PPS, 2023; UK/Island inflationsfortgeschrieben, Nicht-EU-Staaten geschätzt). Medianvermögen: UBS Global Wealth Report 2023 (USD), mit Weltbank-PPP-Faktor (GDP-PPP/nominal) auf Kaufkraftbasis umgerechnet. Mord-/Suizidraten &amp; Lebenserwartung: Schätzungen 2023/24. IQ: Nationale IQ-Werte nach Lynn. PISA 2022 (OECD, Ø aus Mathematik/Lesen/Naturwissenschaften): für Russland (2022 ausgeschlossen), Belarus und Luxemburg (nicht teilgenommen) sowie Bosnien (keine gesicherten Werte) liegen keine Daten vor.</p>
             </div>
         </div>
     </div>
@@ -357,47 +357,47 @@
 
         // Soziale Indikatoren je Land (Schätzwerte 2023/24)
         const countryData = {
-            'Norway': { murder: 0.51, suicide: 11.0, income: 29297, wealth: 170429, lifeexp: 82.6, iq: 98, pisa: 474 },
-            'Sweden': { murder: 0.89, suicide: 12.1, income: 22290, wealth: 96569, lifeexp: 82.8, iq: 98, pisa: 488 },
-            'Denmark': { murder: 0.98, suicide: 9.8, income: 22820, wealth: 211692, lifeexp: 82.0, iq: 98, pisa: 491 },
-            'Finland': { murder: 1.21, suicide: 14.2, income: 21691, wealth: 100958, lifeexp: 81.8, iq: 100, pisa: 495 },
-            'Iceland': { murder: 0.0, suicide: 13.5, income: 27853, wealth: 413471, lifeexp: 82.5, iq: 97, pisa: 447 },
+            'Norway': { murder: 0.51, suicide: 11.0, income: 29297, wealth: 170429, lifeexp: 82.6, iq: 97, pisa: 474 },
+            'Sweden': { murder: 0.89, suicide: 12.1, income: 22290, wealth: 96569, lifeexp: 82.8, iq: 100, pisa: 488 },
+            'Denmark': { murder: 0.98, suicide: 9.8, income: 22820, wealth: 211692, lifeexp: 82.0, iq: 99, pisa: 491 },
+            'Finland': { murder: 1.21, suicide: 14.2, income: 21691, wealth: 100958, lifeexp: 81.8, iq: 101, pisa: 495 },
+            'Iceland': { murder: 0.0, suicide: 13.5, income: 27853, wealth: 413471, lifeexp: 82.5, iq: 98, pisa: 447 },
             'Ireland': { murder: 0.87, suicide: 12.0, income: 21568, wealth: 113356, lifeexp: 81.9, iq: 98, pisa: 504 },
-            'UK': { murder: 1.02, suicide: 10.5, income: 22366, wealth: 184876, lifeexp: 81.3, iq: 102, pisa: 494 },
-            'Netherlands': { murder: 0.62, suicide: 9.5, income: 25116, wealth: 142328, lifeexp: 82.3, iq: 100, pisa: 480 },
+            'UK': { murder: 1.02, suicide: 10.5, income: 22366, wealth: 184876, lifeexp: 81.3, iq: 100, pisa: 494 },
+            'Netherlands': { murder: 0.62, suicide: 9.5, income: 25116, wealth: 142328, lifeexp: 82.3, iq: 101, pisa: 480 },
             'Belgium': { murder: 1.38, suicide: 15.1, income: 25150, wealth: 328590, lifeexp: 81.9, iq: 100, pisa: 486 },
-            'France': { murder: 1.06, suicide: 13.3, income: 21875, wealth: 181468, lifeexp: 82.7, iq: 100, pisa: 478 },
-            'Germany': { murder: 0.88, suicide: 11.3, income: 24086, wealth: 88038, lifeexp: 81.3, iq: 99, pisa: 482 },
-            'Austria': { murder: 0.72, suicide: 11.9, income: 28690, wealth: 89896, lifeexp: 81.9, iq: 100, pisa: 486 },
-            'Switzerland': { murder: 0.52, suicide: 10.8, income: 28247, wealth: 150514, lifeexp: 83.4, iq: 101, pisa: 498 },
-            'Poland': { murder: 1.14, suicide: 15.1, income: 16551, wealth: 44353, lifeexp: 77.7, iq: 99, pisa: 492 },
+            'France': { murder: 1.06, suicide: 13.3, income: 21875, wealth: 181468, lifeexp: 82.7, iq: 98, pisa: 478 },
+            'Germany': { murder: 0.88, suicide: 11.3, income: 24086, wealth: 88038, lifeexp: 81.3, iq: 100, pisa: 482 },
+            'Austria': { murder: 0.72, suicide: 11.9, income: 28690, wealth: 89896, lifeexp: 81.9, iq: 99, pisa: 486 },
+            'Switzerland': { murder: 0.52, suicide: 10.8, income: 28247, wealth: 150514, lifeexp: 83.4, iq: 100, pisa: 498 },
+            'Poland': { murder: 1.14, suicide: 15.1, income: 16551, wealth: 44353, lifeexp: 77.7, iq: 97, pisa: 492 },
             'Czechia': { murder: 0.94, suicide: 13.2, income: 16208, wealth: 41483, lifeexp: 79.2, iq: 99, pisa: 491 },
-            'Slovakia': { murder: 1.22, suicide: 12.4, income: 10670, wealth: 75841, lifeexp: 77.3, iq: 99, pisa: 458 },
-            'Hungary': { murder: 2.04, suicide: 13.5, income: 10913, wealth: 55162, lifeexp: 76.1, iq: 99, pisa: 477 },
-            'Romania': { murder: 2.58, suicide: 13.8, income: 11084, wealth: 54300, lifeexp: 75.9, iq: 99, pisa: 428 },
-            'Bulgaria': { murder: 1.42, suicide: 11.3, income: 11155, wealth: 55741, lifeexp: 75.0, iq: 97, pisa: 414 },
-            'Serbia': { murder: 2.75, suicide: 14.1, income: 7752, wealth: 39912, lifeexp: 75.6, iq: 100, pisa: 442 },
-            'Greece': { murder: 0.70, suicide: 5.1, income: 11389, wealth: 97665, lifeexp: 81.1, iq: 100, pisa: 436 },
-            'Italy': { murder: 0.93, suicide: 6.2, income: 19691, wealth: 164880, lifeexp: 82.8, iq: 100, pisa: 477 },
-            'Spain': { murder: 0.68, suicide: 8.1, income: 19021, wealth: 178662, lifeexp: 83.6, iq: 102, pisa: 477 },
-            'Portugal': { murder: 1.03, suicide: 10.2, income: 13421, wealth: 126884, lifeexp: 82.1, iq: 100, pisa: 478 },
-            'Croatia': { murder: 1.37, suicide: 12.9, income: 13438, wealth: 75002, lifeexp: 78.7, iq: 99, pisa: 474 },
-            'Slovenia': { murder: 0.80, suicide: 14.2, income: 20273, wealth: 129973, lifeexp: 81.7, iq: 101, pisa: 485 },
-            'Ukraine': { murder: 4.82, suicide: 16.3, income: 5304, wealth: 18920, lifeexp: 71.5, iq: 96, pisa: 440 },
-            'Russia': { murder: 7.32, suicide: 22.1, income: 13290, wealth: 27222, lifeexp: 70.5, iq: 104 },
-            'Belarus': { murder: 2.90, suicide: 18.0, income: 9258, wealth: 72163, lifeexp: 74.0, iq: 101 },
-            'Lithuania': { murder: 1.96, suicide: 20.3, income: 14312, wealth: 61013, lifeexp: 76.6, iq: 100, pisa: 477 },
-            'Latvia': { murder: 2.15, suicide: 16.3, income: 13228, wealth: 88353, lifeexp: 75.4, iq: 99, pisa: 484 },
-            'Estonia': { murder: 1.65, suicide: 13.9, income: 15492, wealth: 63894, lifeexp: 78.2, iq: 99, pisa: 516 },
-            'Moldova': { murder: 3.50, suicide: 10.0, income: 5325, wealth: 26447, lifeexp: 71.5, iq: 97, pisa: 414 },
-            'Bosnia': { murder: 1.20, suicide: 14.0, income: 7013, wealth: 44480, lifeexp: 77.4, iq: 97 },
-            'Montenegro': { murder: 3.00, suicide: 9.0, income: 9167, wealth: 112909, lifeexp: 76.5, iq: 98, pisa: 405 },
-            'North Macedonia': { murder: 1.70, suicide: 11.0, income: 7609, wealth: 45305, lifeexp: 75.8, iq: 99, pisa: 376 },
-            'Albania': { murder: 2.20, suicide: 5.0, income: 6174, wealth: 44079, lifeexp: 78.5, iq: 92, pisa: 367 },
-            'Kosovo': { murder: 2.00, suicide: 5.0, income: 4745, wealth: 26700, lifeexp: 72.0, iq: 90, pisa: 351 },
-            'Luxembourg': { murder: 0.70, suicide: 9.0, income: 34777, wealth: 413146, lifeexp: 83.0, iq: 99 },
-            'Malta': { murder: 0.50, suicide: 4.0, income: 21060, wealth: 158743, lifeexp: 83.6, iq: 100, pisa: 459 },
-            'Cyprus': { murder: 0.90, suicide: 4.5, income: 20917, wealth: 66959, lifeexp: 81.0, iq: 102, pisa: 403 }
+            'Slovakia': { murder: 1.22, suicide: 12.4, income: 10670, wealth: 75841, lifeexp: 77.3, iq: 98, pisa: 458 },
+            'Hungary': { murder: 2.04, suicide: 13.5, income: 10913, wealth: 55162, lifeexp: 76.1, iq: 98, pisa: 477 },
+            'Romania': { murder: 2.58, suicide: 13.8, income: 11084, wealth: 54300, lifeexp: 75.9, iq: 90, pisa: 428 },
+            'Bulgaria': { murder: 1.42, suicide: 11.3, income: 11155, wealth: 55741, lifeexp: 75.0, iq: 93, pisa: 414 },
+            'Serbia': { murder: 2.75, suicide: 14.1, income: 7752, wealth: 39912, lifeexp: 75.6, iq: 91, pisa: 442 },
+            'Greece': { murder: 0.70, suicide: 5.1, income: 11389, wealth: 97665, lifeexp: 81.1, iq: 93, pisa: 436 },
+            'Italy': { murder: 0.93, suicide: 6.2, income: 19691, wealth: 164880, lifeexp: 82.8, iq: 96, pisa: 477 },
+            'Spain': { murder: 0.68, suicide: 8.1, income: 19021, wealth: 178662, lifeexp: 83.6, iq: 97, pisa: 477 },
+            'Portugal': { murder: 1.03, suicide: 10.2, income: 13421, wealth: 126884, lifeexp: 82.1, iq: 94, pisa: 478 },
+            'Croatia': { murder: 1.37, suicide: 12.9, income: 13438, wealth: 75002, lifeexp: 78.7, iq: 97, pisa: 474 },
+            'Slovenia': { murder: 0.80, suicide: 14.2, income: 20273, wealth: 129973, lifeexp: 81.7, iq: 99, pisa: 485 },
+            'Ukraine': { murder: 4.82, suicide: 16.3, income: 5304, wealth: 18920, lifeexp: 71.5, iq: 94, pisa: 440 },
+            'Russia': { murder: 7.32, suicide: 22.1, income: 13290, wealth: 27222, lifeexp: 70.5, iq: 97 },
+            'Belarus': { murder: 2.90, suicide: 18.0, income: 9258, wealth: 72163, lifeexp: 74.0, iq: 96 },
+            'Lithuania': { murder: 1.96, suicide: 20.3, income: 14312, wealth: 61013, lifeexp: 76.6, iq: 96, pisa: 477 },
+            'Latvia': { murder: 2.15, suicide: 16.3, income: 13228, wealth: 88353, lifeexp: 75.4, iq: 97, pisa: 484 },
+            'Estonia': { murder: 1.65, suicide: 13.9, income: 15492, wealth: 63894, lifeexp: 78.2, iq: 101, pisa: 516 },
+            'Moldova': { murder: 3.50, suicide: 10.0, income: 5325, wealth: 26447, lifeexp: 71.5, iq: 91, pisa: 414 },
+            'Bosnia': { murder: 1.20, suicide: 14.0, income: 7013, wealth: 44480, lifeexp: 77.4, iq: 89 },
+            'Montenegro': { murder: 3.00, suicide: 9.0, income: 9167, wealth: 112909, lifeexp: 76.5, iq: 86, pisa: 405 },
+            'North Macedonia': { murder: 1.70, suicide: 11.0, income: 7609, wealth: 45305, lifeexp: 75.8, iq: 85, pisa: 376 },
+            'Albania': { murder: 2.20, suicide: 5.0, income: 6174, wealth: 44079, lifeexp: 78.5, iq: 82, pisa: 367 },
+            'Kosovo': { murder: 2.00, suicide: 5.0, income: 4745, wealth: 26700, lifeexp: 72.0, iq: 79, pisa: 351 },
+            'Luxembourg': { murder: 0.70, suicide: 9.0, income: 34777, wealth: 413146, lifeexp: 83.0, iq: 97 },
+            'Malta': { murder: 0.50, suicide: 4.0, income: 21060, wealth: 158743, lifeexp: 83.6, iq: 94, pisa: 459 },
+            'Cyprus': { murder: 0.90, suicide: 4.5, income: 20917, wealth: 66959, lifeexp: 81.0, iq: 93, pisa: 403 }
         };
 
         const metricConfig = {
@@ -406,7 +406,7 @@
             income: { label: 'Medianeinkommen (kaufkraftbereinigt, PPP-$)', min: 4745, max: 34777, colors: ['#dc2626', '#f97316', '#fbbf24', '#84cc16', '#10b981'] },
             wealth: { label: 'Medianvermögen (kaufkraftbereinigt, PPP-$)', min: 18920, max: 413471, colors: ['#dc2626', '#f97316', '#fbbf24', '#84cc16', '#10b981'] },
             lifeexp: { label: 'Lebenserwartung (Jahre)', min: 70, max: 84, colors: ['#dc2626', '#f97316', '#fbbf24', '#84cc16', '#10b981'] },
-            iq: { label: 'IQ (Lynn-Daten)', min: 90, max: 104, colors: ['#dc2626', '#f97316', '#fbbf24', '#84cc16', '#10b981'] },
+            iq: { label: 'IQ (Lynn-Daten)', min: 79, max: 101, colors: ['#dc2626', '#f97316', '#fbbf24', '#84cc16', '#10b981'] },
             pisa: { label: 'PISA-Score 2022 (Ø Mathe/Lesen/Naturwiss.)', min: 351, max: 516, colors: ['#dc2626', '#f97316', '#fbbf24', '#84cc16', '#10b981'] }
         };
 
